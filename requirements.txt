@@ -1,0 +1,7 @@
+transformers
+datasets
+evaluate
+rouge_score
+torch
+sentencepiece
+streamlit 
