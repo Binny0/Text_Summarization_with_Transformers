@@ -6,14 +6,17 @@ It fine-tunes transformer models like BART, T5, Pegasus on summarization dataset
 
 ##  Project Structure
 
-Text_Summarization_with_Transformers/
-│
-├── app.py              # Streamlit web app for summarization
-├── train.py            # Fine-tune summarization models (BART/T5/Pegasus)
-├── utils.py            # Helper functions (preprocessing, evaluation, etc.)(optional)
-├── config.py           # Centralized configuration (model/dataset paths, params)(optional)
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+Text_Summarization_with_Transformers/                                                                                                                                        
+├                                                                                                                                                                            
+├── app.py              -----------------------># Streamlit web app for summarization                                                                                        
+├── train.py            ---------------------># Fine-tune summarization models (BART/T5/Pegasus)                                                                           
+├── utils.py            ---------------------># Helper functions (preprocessing, evaluation, etc.)(optional)                                                                 
+├── config.py           ------------------># Centralized configuration (model/dataset paths, params)(optional)                                                               
+├── requirements.txt    ----------># Python dependencies                                                                                                                     
+└── README.md           -------------># Project documentation
+
+## Interface 👇🏻
+![alt text](image.png)
 
 ## Setup
 
@@ -93,7 +96,3 @@ python -c "from transformers import AutoTokenizer; print('Transformers OK')"
 ## ⚠️ If you see (base) alongside (venv), conda is leaking into your venv.
 ## Fix with:
 conda config --set auto_activate_base false
-
-
-## interface 👇🏻
-![alt text](image.png)
